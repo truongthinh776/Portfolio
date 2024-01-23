@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">JayTi Vương</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Trường Thịnh</span><br>Backend Developer</h1>
+            </div>
+        
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/jayti-v%C6%B0%C6%A1ng-4153b52a4/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/JayTi.thinh.0" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/truongthinh776" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="home__img">
+                <img class="home__blob" src="work0.jpg" width="479" height="467">
+                <mask id="mask0" mask-type="alpha">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        <image class="home__blob-img" x="50" y="60" href="perfil.png"/>
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="about.jpg" alt="">
+                </div>
+                    
+                <div>
+                    <h2 class="about__subtitle">Trường Thịnh</h2>
+                    <p class="about__text">
+                        I am a senior studying in the field of Computer Science and I am passionate about becoming a Backend Developer. Although I do not have professional work experience, I have accumulated knowledge about programming and software development.</p>           
+                </div>                                   
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">          
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">These are the programming languages ​​I 
+                        learned during my time studying at Nguyen Tat Thanh University.</p>
+                        <style>
+                            .logo-container {
+                              display: flex;
+                              justify-content: space-between;
+                              align-items: center;
+                            }
+                            
+                            .logo {
+                              width: 70px;
+                              height: 70px;
+                              border-radius: 50%;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              font-size: 28px;
+                              font-weight: bold;
+                              color: #ffffff;
+                            }
+                            
+                            .html {
+                              background-color: #e34c26;
+                            }
+                            
+                            .css {
+                              background-color: #2965f1;
+                            }
+                            
+                            .javascript {
+                              background-color: #f0db4f;
+                            }
+                            
+                            .nodejs {
+                              background-color: #3c873a;
+                            }
+                            
+                            .php {
+                              background-color: #777bb3;
+                            }
+                          </style>
+                        </head>
+                        <body>
+                          <div class="logo-container">
+                            <div class="logo html">HTML</div>
+                            <div class="logo css">CSS</div>
+                            <div class="logo javascript">JS</div>
+                            <div class="logo nodejs">Node</div>
+                            <div class="logo php">PHP</div>
+                          </div>
+                        </body>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>              
+                    <img src="work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Trường Thịnh</p>
+        <p>Telephone : 0777048300 <br> Email : vuongtruongthinh2k2@gmail.com</p>
+        </div>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="script.js"></script>
+</body>
+</html>
